@@ -11,13 +11,17 @@ body {
     left: 0;
     right: 0;
     z-index: 9999;
-    margin-left: 20px;
-    margin-right: 20px;
+    height: 100%;
+}
+
+.container {
+
 }
 
 .image {
-    background: url("https://i.imgur.com/PQFz70o.jpg");
+    background: url("http://www.cqcommand.com/wp-content/uploads/2017/05/clean-white-polygon-backgrounds-7-copy_0.jpg");
     width: 100%;
+    filter: blur(2px);
     height: 100%;
     left: 0;
     right: 0;
@@ -47,6 +51,21 @@ body {
     -webkit-app-region: no-drag;
 }
 
+.frame-text {
+    float: left;
+    color: #ffffff;
+    margin-top: 2.5px;
+    margin-left: 5px;
+    cursor: default;
+}
+
 .frame-icons:hover {
     color: #BDBDBD;
+}
+
+.sidebar {
+    background-color: #212121;
+    width: 100px;
+    height: 100%;
+    float: left;
 }
