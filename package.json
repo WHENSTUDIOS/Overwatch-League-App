@@ -1,0 +1,23 @@
+{
+  "name": "overwatch-league",
+  "version": "1.0.0",
+  "description": "Unofficial desktop application for the Overwatch League",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WHENSTUDIOS/Overwatch-League-App.git"
+  },
+  "author": "WHENSTUDIOS",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/WHENSTUDIOS/Overwatch-League-App/issues"
+  },
+  "homepage": "https://github.com/WHENSTUDIOS/Overwatch-League-App#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "electron": "^2.0.0"
+  }
+}
