@@ -7,11 +7,9 @@ const remote = require('electron').remote
 const BrowserWindow = electron.remote.BrowserWindow
 
 
-
 var btnClose = document.getElementById('close');
 
 btnClose.addEventListener('click', function() {
     var win = remote.getCurrentWindow();
     win.close();
 });
-  
