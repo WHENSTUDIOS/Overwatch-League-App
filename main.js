@@ -13,7 +13,7 @@ var ejse = require('ejs-electron')
     win = new BrowserWindow({frame: false, width: 800, height: 600})
     // and load the index.html of the app.
     win.loadURL(url.format({
-      pathname: path.join(__dirname, '/views/dashboard.ejs'),
+      pathname: path.join(__dirname, '/views/dashboard.htm'),
       protocol: 'file:',
       slashes: true
     }))
