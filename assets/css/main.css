@@ -1,3 +1,8 @@
+@font-face {
+    font-family: overwatch;
+    src: url("../fonts/overwatch.woff");
+}
+
 body {
     background-size: cover;
     margin: 0px;
@@ -16,6 +21,10 @@ body {
 
 .container {
 
+}
+
+h2 {
+    font-family: overwatch;
 }
 
 .image {
@@ -57,6 +66,9 @@ body {
     margin-top: 2.5px;
     margin-left: 5px;
     cursor: default;
+    font-family: overwatch;
+    letter-spacing: 1.5px;
+    font-size: 16px;
 }
 
 .frame-icons:hover {
