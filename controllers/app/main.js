@@ -4,7 +4,6 @@ const path = require('path')
 const ipc = electron.ipcRenderer
 const axios = require('axios')
 const remote = require('electron').remote
-const api = require('../../assets/data/api')
 const BrowserWindow = electron.remote.BrowserWindow
 
 

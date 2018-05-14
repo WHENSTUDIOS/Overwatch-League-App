@@ -69,3 +69,20 @@ body {
     height: 100%;
     float: left;
 }
+
+.sidebar-item {
+    background-color: #212121;
+    width: 100px;
+    height: 100px;
+    float: left;
+    position: relative;
+    transition: 0.25s;
+}
+
+.sidebar-item a {
+    text-decoration: none;
+}
+
+.sidebar-item:hover {
+    background-color: #3d3d3d;
+}
