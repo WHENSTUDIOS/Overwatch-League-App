@@ -18,7 +18,9 @@
   "homepage": "https://github.com/WHENSTUDIOS/Overwatch-League-App#readme",
   "dependencies": {
     "axios": "^0.18.0",
+    "ejs": "^2.6.1",
     "ejs-electron": "^2.0.3",
-    "electron": "^2.0.0"
+    "electron": "^2.0.0",
+    "electron-ejs": "^1.2.0"
   }
 }
