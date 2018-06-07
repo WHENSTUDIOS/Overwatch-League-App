@@ -19,7 +19,7 @@ var ejse = require('ejs-electron')
     }))
   
     // Open the DevTools.
-    win.webContents.openDevTools()
+    win.webContents.openDevTools()e
   
     // Emitted when the window is closed.
     win.on('closed', () => {
